@@ -6,7 +6,12 @@ public class AdressePostale {
 	int codePostal;
 	String ville;
 
-	public static void main(String[] args) {
+	public AdressePostale (int newNumRue, String newLibellé, String newVille, int newCP) {
+		numéroDeRue=newNumRue;
+		libélléDeRue=newLibellé;
+		codePostal=newCP;
+		ville=newVille;
+		
 
 
 	}
