@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class LectureFichier {
@@ -20,6 +21,7 @@ public class LectureFichier {
 			villes.add(new Ville(tokens[6],tokens[2],tokens[1],tokens[9]));
 			
 		}
+		Collections.sort(villes);
 		List<String> newlines= new ArrayList<String>();
 		String[] firstLine = lines.get(0).split(";");
 		newlines.add(firstLine[6]+";"+firstLine[2]+";"+firstLine[1]+";"+firstLine[9]+";");
