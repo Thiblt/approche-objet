@@ -18,7 +18,7 @@ public class TestListString {
 		liste1.add("Tarbes");
 
 		 String nomLong = liste1.get(0);
-	        for (int i = 1; i < liste1.size(); i++) {
+	        for (int i = 0; i < liste1.size(); i++) {
 	            String nom = liste1.get(i);
 	            if (nomLong.length() < nom.length()) {
 	                nomLong = nom;

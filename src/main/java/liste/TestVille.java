@@ -36,5 +36,6 @@ public class TestVille {
 	System.out.println(villes);
 	
 	}
+	//lien correction: https://github.com/DiginamicFormation/approche-objet-2024-M02
 
 }
