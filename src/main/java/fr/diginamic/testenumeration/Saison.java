@@ -28,8 +28,9 @@ public enum Saison {
             if (saison.getName().equalsIgnoreCase(libelle)) {
                 return saison;
             }
-            else return null;
+            
         }
+        return null;
     }
 
 	
